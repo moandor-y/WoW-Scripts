@@ -1,0 +1,7 @@
+## Interface: 50400
+## Version: 1.0.0
+## Title: MyScripts
+## Author: Moandor
+## Notes: Some useful scripts
+
+MyScripts.lua
