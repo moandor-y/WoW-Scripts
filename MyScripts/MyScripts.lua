@@ -1,15 +1,3 @@
--- hide errors while in combat
-local frame = CreateFrame("Frame")
-frame:RegisterEvent("PLAYER_REGEN_DISABLED")
-frame:SetScript("onEvent", function(self, event, ...)
-    UIErrorsFrame:Hide()
-end)
-local frame = CreateFrame("Frame")
-frame:RegisterEvent("PLAYER_REGEN_ENABLED")
-frame:SetScript("onEvent", function(self, event, ...)
-    UIErrorsFrame:Show()
-end)
-
 -- achievement screenshot
 local function TakeScreen(delay, func, ...)
     local waitTable = {}
